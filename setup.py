@@ -8,4 +8,5 @@ setup(name='charut',
       author_email='dario.popadic@yahoo.com',
       license='MIT',
       packages=['charut'],
+      install_requires=["pandas", "numpy", "matplotlib"],
       zip_safe=False)
